@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Futura';
+  src: url(../fonts/FuturaPTMedium.otf);
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'Futura';
+  src: url(../fonts/FuturaPTBold.otf);
+  font-weight: bold; }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0; }

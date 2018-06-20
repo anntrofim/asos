@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Futura';
+  src: url(../fonts/FuturaPTMedium.otf);
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'Futura';
+  src: url(../fonts/FuturaPTBold.otf);
+  font-weight: bold; }
+
+.category {
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 40px;
+  min-height: 100vh;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease; }
+  .category:hover {
+    color: #fff;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease; }
+  .category:nth-child(1):hover {
+    background-color: rgba(192, 99, 142, 0.7); }
+  .category:nth-child(2):hover {
+    background-color: rgba(130, 160, 72, 0.7); }
+  .category:nth-child(3):hover {
+    background-color: rgba(71, 159, 145, 0.7); }
+  .category:nth-child(4):hover {
+    background-color: rgba(241, 137, 76, 0.7); }
