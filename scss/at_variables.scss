@@ -20,7 +20,7 @@ $white: #fff;
 // -------> MIXINS <-------
 
 @mixin transition {
-	transition: all .4s ease;
+	transition: all .4 s ease;
 }
 
 @mixin btn {
