@@ -1,0 +1,84 @@
+@import "at_variables.scss";
+
+.header {
+	padding: 15px;
+	font-weight: bold;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	font-weight: normal;
+
+	&--left {
+
+	}
+
+	&__brand {
+		@include ref;
+		cursor: pointer;
+		font-size: 56px;
+		letter-spacing: -6px;
+		margin: -30px 30px -15px 0;
+
+		&:hover {
+			color: $black;
+		}
+	}
+
+	&__ref {
+		@include ref;
+		@include transition;
+		color: $black;
+		border-bottom: 1px solid transparent;
+
+		&:hover {
+			@include transition;
+			border-bottom: 1px solid;
+		}
+	}
+
+	&--right {
+		justify-content: flex-end;
+	}
+
+	&__btn {
+		@include btn;
+		@include transition;
+		cursor: pointer;
+		color: #ddd;
+		border: none;
+		border-bottom: 1px solid transparent;
+
+		&:hover {
+			border-bottom: 1px solid;
+		}
+	}
+
+	&__items {
+		transition: box-shadow .3s ease;
+		width: 40%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		box-shadow: 0 3px 5px 1px $lightgray;
+		border-radius: 20px;
+		padding: 4px 8px;
+		color: #ddd;
+	}
+
+	&__txt {
+
+	}
+
+	&__spliter {
+		height: 15px;
+		width: 1px;
+		background-color: #ddd;
+	}
+
+	&__icon {
+		width: 13%;
+	}
+}

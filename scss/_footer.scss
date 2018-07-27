@@ -1,0 +1,47 @@
+@import "at_variables.scss";
+
+.footer {
+	padding: 15px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: 14px;
+
+	&--left {
+		display: flex;
+		align-items: center;
+	}
+
+	&--right {
+
+	}
+
+	&__txt {
+		margin-right: 20px;
+
+	}
+
+	&__socials {
+		border: 2px solid;
+		border-radius: 15px;
+		padding: 2px 6px;
+	}
+
+	.fab {
+		@include transition;
+		margin: 0 5px;
+		color: $darkgray;
+		cursor: pointer;
+
+		&:hover {
+			@include transition;
+			color: $white;
+		}
+	}
+
+	&__copyright {
+
+
+	}
+
+}
